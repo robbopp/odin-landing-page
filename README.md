@@ -4,7 +4,7 @@ A simple landing page for practicing CSS and Flexbox skills developed along the 
 
 
 
-#Origami
+# Origami
 A page dedicated to paper art!
 
 Master the art of origami!

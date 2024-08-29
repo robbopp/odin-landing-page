@@ -150,18 +150,18 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .call-container {
-    border-radius: 8px;
-    padding: 100px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
     gap: 100px;
     width: 900px;
-    height: 40px;
+    height: 150px;
 }
 
 .call-right {
@@ -194,4 +194,13 @@ nav {
     background: #3882f6;
     width: 120px;
     height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #e5e7eb;
+    padding: 30px;
 }

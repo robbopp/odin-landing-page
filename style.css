@@ -71,7 +71,7 @@ nav {
     height: 280px;
 }
 
-button {
+.hero-button {
     font-family: Roboto, sans-serif;
     font-size: 17px;
     font-weight: bold;
@@ -143,4 +143,55 @@ button {
     font-weight: 800;
     align-self: flex-end;
     padding-right: 300px;
+}
+
+.call {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container {
+    border-radius: 8px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    gap: 100px;
+    width: 900px;
+    height: 40px;
+}
+
+.call-right {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.call-text {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.call-sub {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.call-button {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    background: #3882f6;
+    width: 120px;
+    height: 40px;
 }
